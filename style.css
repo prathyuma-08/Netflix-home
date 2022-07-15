@@ -205,3 +205,26 @@ body{
     grid-row: 1/2;
     z-index: -1;
 }
+
+.footer,.footer p{
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer li{
+    line-height: 1.9;
+}
